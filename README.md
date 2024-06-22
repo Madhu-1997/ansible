@@ -35,3 +35,5 @@ echo "hi"
 ```
 - Scalability and flexibility
 Easily and quickly scale the systems you automate through a modular design that supports a large range of operating systems, cloud platforms, and network devices.
+
+![alt text](image.png)

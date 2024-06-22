@@ -13,3 +13,9 @@ ssh-copy-id -f "-o IdentityFile <PATH TO PEM FILE>" ubuntu@<INSTANCE-PUBLIC-IP>
 - Update # PasswordAuthentication yes
 - Restart # SSH -> sudo systemctl restart ssh
 
+## Ad_hoc commands to ping command
+```sh
+ansible -i <invetory file path> -m ping <host name or IP> like <web>
+```
+Once execute the passwords less authentication. we need to add the host name in invertory file on control node. then to check that connection use the above the ansible command.
+

@@ -1,0 +1,9 @@
+---
+- hosts: web
+  become: yes
+  tasks:
+    - name: Install apache-tomcat
+      ansible.builtin.apt:
+        name: apache2
+        state: present
+        update_cache: yes
